@@ -1,0 +1,13 @@
+[package]
+name = "edict_romaji"
+version = "0.1.0"
+authors = ["katsumiinoue.wordpress.com"]
+#edition = "2020"
+
+[[bin]]
+name = "edict_romaji"
+path = "src/edict_romaji.rs"
+
+[dependencies]
+regex = "*"
+wana_kana = "*"
